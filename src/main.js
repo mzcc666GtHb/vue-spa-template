@@ -4,7 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import inject from '@/plugins/inject'
 Vue.config.productionTip = false
+
+Vue.use(inject)
 
 /* eslint-disable no-new */
 new Vue({
